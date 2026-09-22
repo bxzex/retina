@@ -7,13 +7,13 @@
 <meta name="description" content="A convolutional network that trains itself in the browser, then reads the digits you draw. Every filter and feature map shown as it fires." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Azeret+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Azeret+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <style>
 :root{
   --black:#0a0a0a; --panel:#111; --line:#222; --line2:#333;
   --ink:#f5f5f0; --sub:#8f8f88; --dim:#4d4d48;
   --y:#ffd400; --bad:#ff4d3d;
-  --d:"Syne",system-ui,sans-serif;
+  --d:"Archivo",system-ui,sans-serif;
   --m:"Azeret Mono",ui-monospace,Menlo,monospace;
 }
 *{box-sizing:border-box}
@@ -22,7 +22,6 @@ body{background:var(--black);color:var(--ink);font-family:var(--m);font-size:13p
 .wrap{max-width:1180px;margin:0 auto}
 header{padding:34px 0 20px;display:flex;align-items:flex-end;gap:24px;flex-wrap:wrap;border-bottom:1px solid var(--line2)}
 h1{font-family:var(--d);font-weight:800;font-size:56px;line-height:.86;margin:0;letter-spacing:-.03em}
-h1 span{color:var(--y)}
 .sub{color:var(--sub);font-size:13px;line-height:1.6;max-width:50ch;margin:0 0 6px}
 .badge{margin-left:auto;font-size:10.5px;letter-spacing:.16em;color:var(--y);border:1px solid var(--y);padding:6px 12px;margin-bottom:6px}
 
@@ -77,10 +76,10 @@ footer a{color:var(--sub)}
 <div class="wrap">
 <header>
   <div>
-    <h1>RET<span>INA</span></h1>
+    <h1>Retina</h1>
     <p class="sub" style="margin-top:12px">A convolutional network that builds its own training set, trains itself in this tab, and then reads the digits you draw. Every filter and every feature map is shown as it fires.</p>
   </div>
-  <span class="badge">NO MODEL DOWNLOADED</span>
+  
 </header>
 
 <div class="bar">
